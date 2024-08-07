@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthwindWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cff3f6113d2ba6f5d33453a4ff26dc315747561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63b95ced9dd9eccb45e9c8f9b3c9ca765988c7ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthwindWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthwindWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

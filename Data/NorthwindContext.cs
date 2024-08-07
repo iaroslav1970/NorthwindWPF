@@ -16,7 +16,13 @@ public class NorthwindContext : DbContext
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderDetail> OrderDetails { get; set; }
 
-    
+    protected override void OnConfiguring(
+            DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(
+                "Server=(localdb)\\mssqllocaldb;Database=Northwind;Trusted_Connection=True;ConnectRetryCount=0");
+            optionsBuilder.UseLazyLoadingProxies();
+        }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
